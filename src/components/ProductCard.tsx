@@ -53,19 +53,19 @@ export default function ProductCard({
 
       {/* Size Options */}
       <div className="flex gap-2 mb-3">
-        <button className="w-8 h-8 border border-gray-300 text-sm hover:border-gray-900 transition-colors">
+        <button className="w-8 h-8 border border-gray-300 text-sm text-gray-800 hover:border-gray-900 transition-colors">
           L
         </button>
         <button className="w-8 h-8 border border-gray-900 bg-gray-900 text-white text-sm">
           M
         </button>
-        <button className="w-8 h-8 border border-gray-300 text-sm hover:border-gray-900 transition-colors">
+        <button className="w-8 h-8 border border-gray-300 text-sm text-gray-800 hover:border-gray-900 transition-colors">
           S
         </button>
-        <button className="w-8 h-8 border border-gray-300 text-sm hover:border-gray-900 transition-colors">
+        <button className="w-8 h-8 border border-gray-300 text-sm text-gray-800 hover:border-gray-900 transition-colors">
           XL
         </button>
-        <button className="w-8 h-8 border border-gray-300 text-sm hover:border-gray-900 transition-colors">
+        <button className="w-8 h-8 border border-gray-300 text-sm text-gray-800 hover:border-gray-900 transition-colors">
           XS
         </button>
       </div>
