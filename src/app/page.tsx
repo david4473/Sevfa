@@ -162,7 +162,7 @@ export default function HomePage() {
       <section
         className="relative min-h-screen bg-fixed bg-cover bg-center flex flex-col md:flex-row"
         style={{
-          backgroundImage: `url('jump_back.webp')`,
+          backgroundImage: `url('Jump_back.webp')`,
         }}
       >
         <div className="w-full md:w-1/2 flex items-center justify-center px-6 md:px-12 py-12 md:py-20">
