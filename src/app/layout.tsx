@@ -3,7 +3,7 @@ import { Geist, Geist_Mono, Cormorant_Garamond } from "next/font/google";
 import "./globals.css";
 
 const cormorantGaramond = Cormorant_Garamond({
-  variable: "--font-cormorant_garamond",
+  weight: ["400", "700"],
   subsets: ["latin"],
 });
 
@@ -19,7 +19,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${cormorantGaramond} antialiased`}>{children}</body>
+      <body className={`${cormorantGaramond.className} antialiased`}>
+        {children}
+      </body>
     </html>
   );
 }

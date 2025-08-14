@@ -66,28 +66,28 @@ export default function HomePage() {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
             <ProductCard
-              image="/placeholder.svg?height=400&width=300"
+              image="set1.webp"
               category="Performance Wear"
               title="High-Performance Leggings Set"
               price="$124.90"
               colors={["black", "white"]}
             />
             <ProductCard
-              image="/placeholder.svg?height=400&width=300"
+              image="set2.webp"
               category="Gym Essentials"
               title="Training Essentials Bundle"
               price="$145.50"
               colors={["black", "green"]}
             />
             <ProductCard
-              image="/placeholder.svg?height=400&width=300"
+              image="set3.webp"
               category="Athleisure"
               title="Athleisure Comfort Set"
               price="$175.00"
               colors={["black", "white"]}
             />
             <ProductCard
-              image="/placeholder.svg?height=400&width=300"
+              image="set4.webp"
               category="Training Gear"
               title="Pro Training Collection"
               price="$135.50 – $175.50"
@@ -162,19 +162,19 @@ export default function HomePage() {
       <section
         className="relative min-h-screen bg-fixed bg-cover bg-center flex flex-col md:flex-row"
         style={{
-          backgroundImage: `url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-08EEmMFXRlhUZTXOjflbiqsItkcKS6.png')`,
+          backgroundImage: `url('jump_back.webp')`,
         }}
       >
         <div className="w-full md:w-1/2 flex items-center justify-center px-6 md:px-12 py-12 md:py-20">
           <div className="max-w-lg">
             <div className="mb-8 md:mb-12">
               <img
-                src="Hero.webp"
+                src="set5.webp"
                 alt="Fashion Model"
-                className="w-full max-w-sm mx-auto rounded-lg shadow-2xl"
+                className="w-full max-w-sm mt-[-150px] rounded-lg shadow-2xl"
               />
             </div>
-            <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl xl:text-6xl italic font-light mb-6 md:mb-8 leading-tight text-white">
+            <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl italic font-light mb-6 md:mb-8 leading-tight text-white">
               Discover The Allure Of
               <br />
               Fitness Lifestyle!
@@ -203,14 +203,14 @@ export default function HomePage() {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
             <ProductCard
-              image="/placeholder.svg?height=400&width=300"
+              image="set6.webp"
               category="Performance Wear"
               title="Elite Performance Set"
               price="$109.99"
               colors={["gray", "black"]}
             />
             <ProductCard
-              image="/placeholder.svg?height=400&width=300"
+              image="set7.webp"
               category="Gym Essentials"
               title="Training Comfort Joggers"
               price="$250.00"
@@ -218,14 +218,14 @@ export default function HomePage() {
               hasShoppingBag={true}
             />
             <ProductCard
-              image="/placeholder.svg?height=400&width=300"
+              image="set8.webp"
               category="Athleisure"
               title="Urban Athleisure Ensemble"
               price="$224.95"
               colors={["black", "dark-gray"]}
             />
             <ProductCard
-              image="/placeholder.svg?height=400&width=300"
+              image="set9.webp"
               category="Training Gear"
               title="Complete Workout Wardrobe"
               price="$119.95"
